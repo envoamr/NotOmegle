@@ -4,13 +4,14 @@ import { useState, useEffect, useRef } from "react";
 import { useInView } from 'react-intersection-observer';
 import { Inter, Saira_Condensed, Roboto } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap", adjustFontFallback: false });
 const sairaCondensedBold = Saira_Condensed({
   weight: "700",
   subsets: ["latin"],
+  display: "swap", adjustFontFallback: false
 });
-const sairaCondensed = Saira_Condensed({ weight: "400", subsets: ["latin"] });
-const roboto = Roboto({ weight: "400", subsets: ["latin"] });
+const sairaCondensed = Saira_Condensed({ weight: "400", subsets: ["latin"], display: "swap", adjustFontFallback: false });
+const roboto = Roboto({ weight: "400", subsets: ["latin"], display: "swap", adjustFontFallback: false });
 
 const Chat = ({
   sendMessage,

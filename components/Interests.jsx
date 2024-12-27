@@ -3,8 +3,8 @@
 import { Inter, Saira_Condensed, Roboto } from "next/font/google";
 import { useState } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
-const roboto = Roboto({ weight: "400", subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap", adjustFontFallback: false });
+const roboto = Roboto({ weight: "400", subsets: ["latin"], display: "swap", adjustFontFallback: false });
 
 const Interests = () => {
   const [nextInterest, setNextInterest] = useState("");

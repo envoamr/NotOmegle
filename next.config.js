@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'www.omegle.com',
+        hostname: 'static.wikia.nocookie.net',
       },
     ],
   },
