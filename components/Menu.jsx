@@ -4,7 +4,7 @@ import { useState } from "react";
 import Interests from "@components/Interests";
 import { Roboto } from "next/font/google";
 
-const roboto = Roboto({ weight: "700", subsets: ["latin"] });
+const roboto = Roboto({ weight: "700", subsets: ["latin"], display: "swap", adjustFontFallback: false });
 
 const Menu = ({ startChat }) => {
   const [clickedAlready, setClickedAlready] = useState(false)
@@ -32,7 +32,7 @@ const Menu = ({ startChat }) => {
             </p>
           </div>
           <img
-            src="https://www.omegle.com/static/standwithhk.jpeg"
+            src="https://static.wikia.nocookie.net/logopedia/images/f/fc/Omegle_Mask.png/"
             alt="stand with honk kong"
             width={287}
             height={150}

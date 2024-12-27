@@ -26,7 +26,7 @@ const Header = () => {
                 "linear-gradient(109.6deg, rgb(66, 240, 233) 34.9%, rgb(252, 255, 26) 82.5%)",
               WebkitTextFillColor: "transparent",
               WebkitBackgroundClip: "text",
-              "-webkit-text-fill-color": "transparent",
+              WebkitTextFillColor: "transparent",
             }}
           >
             NotOmegle
